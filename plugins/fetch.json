@@ -1,0 +1,37 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-camera": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-camera"
+        },
+        "is_top_level": true,
+        "variables": {
+            "CAMERA_USAGE_DESCRIPTION": "your usage message",
+            "PHOTOLIBRARY_USAGE_DESCRIPTION": " "
+        }
+    },
+    "cordova-plugin-compat": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-compat"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-splashscreen": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-splashscreen@4.0.2"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
