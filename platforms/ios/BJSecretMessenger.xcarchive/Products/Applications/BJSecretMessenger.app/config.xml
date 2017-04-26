@@ -39,6 +39,20 @@
     <allow-intent href="geo:*" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
+    <splash density="port-ldpi" src="res/screens/screen-ldpi-portrait.png" />
+    <splash density="port-mdpi" src="res/screens/screen-mdpi-portrait.png" />
+    <splash density="port-hdpi" src="res/screens/screen-hdpi-portrait.png" />
+    <splash density="port-xhdpi" src="res/screens/screen-xhdpi-portrait.png" />
+    <splash density="land-ldpi" src="res/screens/ldpi-landscape.png" />
+    <splash density="land-mdpi" src="res/screens/mdpi-landscape.png" />
+    <splash density="land-hdpi" src="res/screens/hdpi-landscape.png" />
+    <splash density="land-xhdpi" src="res/screens/screen-xhdpi-landscape.png" />
+    <icon density="port-ldpi" src="res/icons/icon-36-ldpi.png" />
+    <icon density="port-mdpi" src="res/icons/icon-48-mdpi.png" />
+    <icon density="port-hdpi" src="res/icons/icon-72-hdpi.png" />
+    <icon density="port-xhdpi" src="res/icons/icon-96-xhdpi.png" />
+    <icon density="port-xxhdpi" src="res/icons/icon-144-xxhdpi.png" />
+    <icon density="port-xxxhdpi" src="res/icons/icon-192-xxxhdpi.png" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
@@ -53,4 +67,6 @@
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
     <preference name="CameraUsesGeolocation" value="false" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
 </widget>

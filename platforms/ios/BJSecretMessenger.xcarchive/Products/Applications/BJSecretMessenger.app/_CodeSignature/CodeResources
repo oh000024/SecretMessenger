@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		rIyX+2KwR5PkqFSEAitHaL+1Cus=
+		w/1KEn4AW78QKCKE5hWgTS1Uv6s=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		2KzyIE7+jyg0t4JVX5F8QGpkO0w=
+		bMGEoXRbuziVrly9HlWDCEy8uuY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		sWBJLJPErcy+j0szA5cN+qyT5sg=
+		rMkdU9nx48p0463THTMVa3ONZFQ=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		Y2XqxhLyypAnWCrkDhmZRzllACk=
+		lQUKnHeLh9mrbRNQRcp2Yafpotg=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		mp360Y8SuGEP4xMi2Xd2I/XkWpY=
+		Yp7yukuRdH6UBVUszI8rJ3yx8AQ=
 		</data>
 		<key>www/js/MOD_index.js</key>
 		<data>
@@ -242,7 +242,7 @@
 		</data>
 		<key>www/js/bits-1.js</key>
 		<data>
-		cZxzGQ/IzKQi7lDMH2q/C9tHJno=
+		W4u4GZ2oj1GQHwe/OEgVoxENZJU=
 		</data>
 		<key>www/js/callback.js</key>
 		<data>
@@ -262,7 +262,7 @@
 		</data>
 		<key>www/js/index.js</key>
 		<data>
-		ElKdCX3o2DuYACuzBL5C1vw5i9A=
+		8sHl5SefX+NTmh/eKhU2AijKWkw=
 		</data>
 		<key>www/js/ratchet.min.js</key>
 		<data>
@@ -519,11 +519,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rIyX+2KwR5PkqFSEAitHaL+1Cus=
+			w/1KEn4AW78QKCKE5hWgTS1Uv6s=
 			</data>
 			<key>hash2</key>
 			<data>
-			MCNCjkjg5sFovkLyRaFQusKsJXdzdA8eZQGAPYVxzsI=
+			67Y32T1+nO5vK5xpz/IXZ5FCRGuqg1eyLC/H3pKtUWY=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -541,11 +541,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2KzyIE7+jyg0t4JVX5F8QGpkO0w=
+			bMGEoXRbuziVrly9HlWDCEy8uuY=
 			</data>
 			<key>hash2</key>
 			<data>
-			yodexHeOP3IRBOvGdor/EIKCIsCeTuC0zZCW4++R7hE=
+			8GrDJqAgmdIaCU7xj+kl4q10n6sSrqy9nMjQ7Ydsv+0=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -706,11 +706,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sWBJLJPErcy+j0szA5cN+qyT5sg=
+			rMkdU9nx48p0463THTMVa3ONZFQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ddCKzusxAlqUMzJOPpaaEycAwnK+rOW2bx9AhOKaREo=
+			salFpbpxEpWEbvSawbueIDASWB7nRXbM7UQAeCBWLx8=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -728,11 +728,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Y2XqxhLyypAnWCrkDhmZRzllACk=
+			lQUKnHeLh9mrbRNQRcp2Yafpotg=
 			</data>
 			<key>hash2</key>
 			<data>
-			u83kn8YXWtlkGMknNfnGAXkVEqsNzLH4N3x+QE3Hyzo=
+			DAgVjat4ckmvo8+rmLwi0lkDQSOHeHlz4SgN+qnez2c=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -893,11 +893,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mp360Y8SuGEP4xMi2Xd2I/XkWpY=
+			Yp7yukuRdH6UBVUszI8rJ3yx8AQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			uZV93r/zDQrlWXWNDUi7SJydD2Hok2cfKHHJlgYwxF8=
+			DToA5F50xqzLPmY+m+JwAe0yPkuUnKYPhyRepuTrsz0=
 			</data>
 		</dict>
 		<key>www/js/MOD_index.js</key>
@@ -926,11 +926,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cZxzGQ/IzKQi7lDMH2q/C9tHJno=
+			W4u4GZ2oj1GQHwe/OEgVoxENZJU=
 			</data>
 			<key>hash2</key>
 			<data>
-			DWYgZ3Nm+8UpnGcjKuNdhUp22DhWVtRFPig2U2YmeHM=
+			hZjLO8XIA0/cfIE2xRBcWfefzO0fJRqa2ZPQ4o7le1s=
 			</data>
 		</dict>
 		<key>www/js/callback.js</key>
@@ -981,11 +981,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ElKdCX3o2DuYACuzBL5C1vw5i9A=
+			8sHl5SefX+NTmh/eKhU2AijKWkw=
 			</data>
 			<key>hash2</key>
 			<data>
-			+DSW1+RAwW2bfBdgNwnCdSYcCS02A9UlczonfJfraPA=
+			i9YHA3QMLkABEoOk9IdGbdL+rlfNYbKB5V1qBPg2iC0=
 			</data>
 		</dict>
 		<key>www/js/ratchet.min.js</key>
