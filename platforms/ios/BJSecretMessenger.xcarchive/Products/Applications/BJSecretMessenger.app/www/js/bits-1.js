@@ -272,11 +272,7 @@ var BITS = (function(){
         setMessage:             setMessage,
         getMessage:             getMessage,
         numberToBitArray:       numberToBitArray,
-        stringToBitArray:       stringToBitArray,
-		
-		
-		getUserId:				getUserId,
-		getMsgLength:			getMsgLength
+        stringToBitArray:       stringToBitArray
     };
     
     /***********************

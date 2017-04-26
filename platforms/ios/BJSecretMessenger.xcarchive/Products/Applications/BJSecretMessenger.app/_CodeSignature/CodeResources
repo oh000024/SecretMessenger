@@ -66,7 +66,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		uNExCEfEXwV5mqqo+1PFA5XP7lw=
+		uvBu1Ydj5ajjF9Den8gjxR55CcI=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		FlF38y9W56Jczr7qVrg13eHhDDM=
+		zmdtiL0iagakvqdidi9CvQ1NLPA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		cccQ0qxTD7yrMq3kTe6xwhqiqiQ=
+		cgtjeH+IZ/899jDbqUKgCsyboe8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -246,7 +246,7 @@
 		</data>
 		<key>www/css/main.css</key>
 		<data>
-		qN+hol1L5Z80t0i8uERC0HHm+qk=
+		bQhpvBojVKR11tipcDui7XqN2ho=
 		</data>
 		<key>www/css/ratchet-theme-android.min.css</key>
 		<data>
@@ -290,7 +290,7 @@
 		</data>
 		<key>www/js/bits-1.js</key>
 		<data>
-		W4u4GZ2oj1GQHwe/OEgVoxENZJU=
+		cZxzGQ/IzKQi7lDMH2q/C9tHJno=
 		</data>
 		<key>www/js/callback.js</key>
 		<data>
@@ -310,7 +310,7 @@
 		</data>
 		<key>www/js/index.js</key>
 		<data>
-		3zSJvUrHsiIHrHG6e+qpgL4dEqg=
+		N+ajnZjHqJlTgf6/D8QzvtEx4Lw=
 		</data>
 		<key>www/js/ratchet.min.js</key>
 		<data>
@@ -512,11 +512,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uNExCEfEXwV5mqqo+1PFA5XP7lw=
+			uvBu1Ydj5ajjF9Den8gjxR55CcI=
 			</data>
 			<key>hash2</key>
 			<data>
-			3otSaLYl04crDSuy07uJdLsFdtUG8HPU/kmbotmVPiU=
+			WdA6yCRpxuEdOi13dNqzJ1ouL/Y6UUFkziVy10yZ5n0=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -534,11 +534,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FlF38y9W56Jczr7qVrg13eHhDDM=
+			zmdtiL0iagakvqdidi9CvQ1NLPA=
 			</data>
 			<key>hash2</key>
 			<data>
-			uFPocrihjdlHscRnHZRYHEjuX25Ex7iaFuwKDI0CgFQ=
+			bPgtU0uhclJ+21TUF2XVCXoQQQEAO5RKZJxTKCZlW2g=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -688,11 +688,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cccQ0qxTD7yrMq3kTe6xwhqiqiQ=
+			cgtjeH+IZ/899jDbqUKgCsyboe8=
 			</data>
 			<key>hash2</key>
 			<data>
-			TTUYiqTIU8Obkxm8XgF/twWm1nfE7ApvHAeW5+02cgA=
+			y7LMU3tlEhIWnxyPGvCF3Hss61Q03wel4sxuLgbogJM=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -985,11 +985,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qN+hol1L5Z80t0i8uERC0HHm+qk=
+			bQhpvBojVKR11tipcDui7XqN2ho=
 			</data>
 			<key>hash2</key>
 			<data>
-			+b+Cqtot81pEImIdDp1LKO5VYJIXxay0TcZ5Xbqu4IY=
+			rxpTLxLF4wTj5U17v4oNwl9VKrE9gAVzvvZM6y3R2Zw=
 			</data>
 		</dict>
 		<key>www/css/ratchet-theme-android.min.css</key>
@@ -1106,11 +1106,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W4u4GZ2oj1GQHwe/OEgVoxENZJU=
+			cZxzGQ/IzKQi7lDMH2q/C9tHJno=
 			</data>
 			<key>hash2</key>
 			<data>
-			hZjLO8XIA0/cfIE2xRBcWfefzO0fJRqa2ZPQ4o7le1s=
+			DWYgZ3Nm+8UpnGcjKuNdhUp22DhWVtRFPig2U2YmeHM=
 			</data>
 		</dict>
 		<key>www/js/callback.js</key>
@@ -1161,11 +1161,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3zSJvUrHsiIHrHG6e+qpgL4dEqg=
+			N+ajnZjHqJlTgf6/D8QzvtEx4Lw=
 			</data>
 			<key>hash2</key>
 			<data>
-			6yWTvjONCMwTzElKrcEKUEIwsbftAB6+ICr0KbM0hF4=
+			2nAFlj3TRM2XGWL8jWLfkvT9FZ+N9oJ1cv3bwfxtEp0=
 			</data>
 		</dict>
 		<key>www/js/ratchet.min.js</key>

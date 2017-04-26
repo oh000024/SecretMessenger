@@ -337,26 +337,14 @@ function onCallbackViewMessage(data) {
 		//		img.src = gURL + data.image;
 		img.addEventListener('load', function () {
 
-
 			var w = img.width;
 			var h = img.height;
 			canvas.style.width = w + 'px';
 			canvas.style.height = h + 'px';
 			canvas.width = w;
 			canvas.height = h;
-			//			canvas.style.width = img.width + "px";
-			//			canvas.style.height = img.height + "px";
-			//			canvas.width = img.width; //"300";
-			//			canvas.height = img.height; //"300";
+	
 			ctx.drawImage(img, 0, 0);
-			//img.style.width = "100%";
-
-
-
-
-
-
-			//try {
 
 			let id = data.sender.toString();
 			//			console.log(glistofuser.get(data.sender.toString()));
@@ -366,21 +354,17 @@ function onCallbackViewMessage(data) {
 			fname.value = glistofuser.has(id) ? glistofuser.get(id) : "Anonymous";
 			sname = fname.value;
 			let msg = BITS.getMessage(gUid, canvas);
+			img.width="100%";
 
 			let text = document.getElementById("recievedmsg");
 			text.value = msg;
 
-			//} catch (e) {
-			//	let from = document.querySelector("#viewmessage form");
-			//				app.generateMessage(from, from.firstElementChild, "bad", e.message);
-			//}
 		})
 	} catch (e) {
 		let from = document.querySelector("#viewmessage form");
 		//		app.generateMessage(from, from.firstElementChild, "bad", data.message);
 	}
 
-	//let ctx = docment.querySelector("#ViewMessageModal.reciever");
 }
 
 function onCallbackDelete(data) {
@@ -412,11 +396,6 @@ function onBackNavFS(ev) {
 	let form = document.querySelector("#SendModal form");
 	let img = document.querySelector("#SendModal img");
 	form.replaceChild(but, form.firstElementChild);
-
-
-	//	let sendModal = document.getElementById("SendModal");
-	//	sendModal.classList.remove("active");	
-	//	sendModal.href="#MessageListModal";
 
 	let viewMessageModal = document.getElementById("ViewMessageModal");
 	viewMessageModal.classList.remove("active");
