@@ -24,19 +24,43 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-        <splash density="port-ldpi" src="res/screens/screen-ldpi-portrait.png" />
-        <splash density="port-mdpi" src="res/screens/screen-mdpi-portrait.png" />
-        <splash density="port-hdpi" src="res/screens/screen-hdpi-portrait.png" />
-        <splash density="port-xhdpi" src="res/screens/screen-xhdpi-portrait.png" />
-       <splash density="land-ldpi" src="res/screens/ldpi-landscape.png" />
-        <splash density="land-mdpi" src="res/screens/mdpi-landscape.png" />
-        <splash density="land-hdpi" src="res/screens/hdpi-landscape.png" />
-        <splash density="land-xhdpi" src="res/screens/screen-xhdpi-landscape.png" />
-        <icon density="port-ldpi" src="res/icons/icon-36-ldpi.png" />
-        <icon density="port-mdpi" src="res/icons/icon-48-mdpi.png" />
-        <icon density="port-hdpi" src="res/icons/icon-72-hdpi.png" />
-        <icon density="port-xhdpi" src="res/icons/icon-96-xhdpi.png" />
-        <icon density="port-xxhdpi" src="res/icons/icon-144-xxhdpi.png" />
-        <icon density="port-xxxhdpi" src="res/icons/icon-192-xxxhdpi.png" />
-    </platform>
+
+    <splash src="res/screen/ios/Default.png" width="320" height="480"/>
+    <splash src="res/screen/ios/Default@2x.png" width="640" height="960"/>
+    <splash src="res/screen/ios/Default-Portrait.png" width="768" height="1024"/>
+    <splash src="res/screen/ios/Default-Portrait@2x.png" width="1536" height="2048"/>
+    <splash src="res/screen/ios/Default-Landscape.png" width="1024" height="768"/>
+    <splash src="res/screen/ios/Default-Landscape@2x.png" width="2048" height="1536"/>
+    <splash src="res/screen/ios/Default-568h@2x.png" width="640" height="1136"/>
+    <splash src="res/screen/ios/Default-667h.png" width="750" height="1334"/>
+    <splash src="res/screen/ios/Default-736h.png" width="1242" height="2208"/>
+    <splash src="res/screen/ios/Default-Landscape-736h.png" width="2208" height="1242"/>
+
+
+
+
+              <icon src="res/icons/icon-60.png" width="60" height="60" />
+              <icon src="res/icons/icon-60@2x.png" width="120" height="120" />\
+              <icon src="res/icons/icon-60@3x.png" width="180" height="180" />
+
+              <icon src="res/icons/icon-76.png" width="76" height="76" />
+              <icon src="res/icons/icon-76@2x.png" width="152" height="152" />
+
+              <icon src="res/icons/icon-40.png" width="40" height="40" />
+              <icon src="res/icons/icon-40@2x.png" width="80" height="80" />
+
+              <icon src="res/icons/icon-72.png" width="72" height="72" />
+              <icon src="res/icons/icon-72@2x.png" width="144" height="144" />
+              <icon src="res/icons/icon-83.5@2x.png" width="144" height="144" />
+
+              <icon src="res/icons/icon-small.png" width="29" height="29" />
+              <icon src="res/icons/icon-small@2x.png" width="58" height="58" />
+              <icon src="res/icons/icon-small@3x.png" width="87" height="87" />
+
+
+
+     </platform>
+
+
+
 </widget>

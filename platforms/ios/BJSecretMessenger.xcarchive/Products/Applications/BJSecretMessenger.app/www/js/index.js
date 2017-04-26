@@ -386,7 +386,6 @@ function onGoSend(ev) {
 	ev.preventDefault();
 	let tBut = document.querySelector("#SendModal form button.btn.btn-primary.btn-block");
 	tBut.addEventListener('touchstart', app.onCamera);
-
 }
 
 function onBackNavFS(ev) {
@@ -421,7 +420,7 @@ function onGoSendWId(ev) {
 		}
 	}
 	// Is this the Best thing?? Jake??? 
-	sname = "";
+	//sname = "";
 	document.getElementById("myTextarea").focus();
 
 	let tBut = document.querySelector("#SendModal form button.btn.btn-primary.btn-block");

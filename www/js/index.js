@@ -386,7 +386,6 @@ function onGoSend(ev) {
 	ev.preventDefault();
 	let tBut = document.querySelector("#SendModal form button.btn.btn-primary.btn-block");
 	tBut.addEventListener('touchstart', app.onCamera);
-
 }
 
 function onBackNavFS(ev) {

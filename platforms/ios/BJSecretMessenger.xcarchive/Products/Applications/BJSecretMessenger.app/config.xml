@@ -39,20 +39,29 @@
     <allow-intent href="geo:*" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
-    <splash density="port-ldpi" src="res/screens/screen-ldpi-portrait.png" />
-    <splash density="port-mdpi" src="res/screens/screen-mdpi-portrait.png" />
-    <splash density="port-hdpi" src="res/screens/screen-hdpi-portrait.png" />
-    <splash density="port-xhdpi" src="res/screens/screen-xhdpi-portrait.png" />
-    <splash density="land-ldpi" src="res/screens/ldpi-landscape.png" />
-    <splash density="land-mdpi" src="res/screens/mdpi-landscape.png" />
-    <splash density="land-hdpi" src="res/screens/hdpi-landscape.png" />
-    <splash density="land-xhdpi" src="res/screens/screen-xhdpi-landscape.png" />
-    <icon density="port-ldpi" src="res/icons/icon-36-ldpi.png" />
-    <icon density="port-mdpi" src="res/icons/icon-48-mdpi.png" />
-    <icon density="port-hdpi" src="res/icons/icon-72-hdpi.png" />
-    <icon density="port-xhdpi" src="res/icons/icon-96-xhdpi.png" />
-    <icon density="port-xxhdpi" src="res/icons/icon-144-xxhdpi.png" />
-    <icon density="port-xxxhdpi" src="res/icons/icon-192-xxxhdpi.png" />
+    <splash height="480" src="res/screen/ios/Default.png" width="320" />
+    <splash height="960" src="res/screen/ios/Default@2x.png" width="640" />
+    <splash height="1024" src="res/screen/ios/Default-Portrait.png" width="768" />
+    <splash height="2048" src="res/screen/ios/Default-Portrait@2x.png" width="1536" />
+    <splash height="768" src="res/screen/ios/Default-Landscape.png" width="1024" />
+    <splash height="1536" src="res/screen/ios/Default-Landscape@2x.png" width="2048" />
+    <splash height="1136" src="res/screen/ios/Default-568h@2x.png" width="640" />
+    <splash height="1334" src="res/screen/ios/Default-667h.png" width="750" />
+    <splash height="2208" src="res/screen/ios/Default-736h.png" width="1242" />
+    <splash height="1242" src="res/screen/ios/Default-Landscape-736h.png" width="2208" />
+    <icon height="60" src="res/icons/icon-60.png" width="60" />
+    <icon height="120" src="res/icons/icon-60@2x.png" width="120" />
+    <icon height="180" src="res/icons/icon-60@3x.png" width="180" />
+    <icon height="76" src="res/icons/icon-76.png" width="76" />
+    <icon height="152" src="res/icons/icon-76@2x.png" width="152" />
+    <icon height="40" src="res/icons/icon-40.png" width="40" />
+    <icon height="80" src="res/icons/icon-40@2x.png" width="80" />
+    <icon height="72" src="res/icons/icon-72.png" width="72" />
+    <icon height="144" src="res/icons/icon-72@2x.png" width="144" />
+    <icon height="144" src="res/icons/icon-83.5@2x.png" width="144" />
+    <icon height="29" src="res/icons/icon-small.png" width="29" />
+    <icon height="58" src="res/icons/icon-small@2x.png" width="58" />
+    <icon height="87" src="res/icons/icon-small@3x.png" width="87" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
