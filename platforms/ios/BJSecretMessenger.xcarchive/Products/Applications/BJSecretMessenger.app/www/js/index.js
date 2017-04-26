@@ -336,12 +336,24 @@ function onCallbackViewMessage(data) {
 
 		//		img.src = gURL + data.image;
 		img.addEventListener('load', function () {
-			canvas.style.width = img.width + "px";
-			canvas.style.height = img.height + "px";
-			canvas.width = img.width; //"300";
-			canvas.height = img.height; //"300";
+
+
+			var w = img.width;
+			var h = img.height;
+			canvas.style.width = w + 'px';
+			canvas.style.height = h + 'px';
+			canvas.width = w;
+			canvas.height = h;
+			//			canvas.style.width = img.width + "px";
+			//			canvas.style.height = img.height + "px";
+			//			canvas.width = img.width; //"300";
+			//			canvas.height = img.height; //"300";
 			ctx.drawImage(img, 0, 0);
 			//img.style.width = "100%";
+
+
+
+
 
 
 			//try {
@@ -400,12 +412,26 @@ function onBackNavFS(ev) {
 	let form = document.querySelector("#SendModal form");
 	let img = document.querySelector("#SendModal img");
 	form.replaceChild(but, form.firstElementChild);
+
+
+	//	let sendModal = document.getElementById("SendModal");
+	//	sendModal.classList.remove("active");	
+	//	sendModal.href="#MessageListModal";
+
+	let viewMessageModal = document.getElementById("ViewMessageModal");
+	viewMessageModal.classList.remove("active");
+
+
+
+	let messageListModal = document.getElementById("MessageListModal");
+	messageListModal.classList.remove("active");
+
+	messageListModal.classList.add("active");
+
 }
 
 function onBackNavFD(ev) {
 	ev.preventDefault();
-	
-
 }
 
 function onGoSendWId(ev) {
@@ -421,7 +447,7 @@ function onGoSendWId(ev) {
 	}
 	// Is this the Best thing?? Jake??? 
 	//sname = "";
-	document.getElementById("myTextarea").focus();
+	//document.getElementById("myTextarea").focus();
 
 	let tBut = document.querySelector("#SendModal form button.btn.btn-primary.btn-block");
 	tBut.addEventListener('touchstart', app.onCamera);
@@ -471,7 +497,7 @@ var MessageHandler = {
 	Send: function (ev) {
 		try {
 			ev.preventDefault();
-
+			let img1 = document.querySelector(".orgimg");
 			let canvas = document.createElement("canvas");
 			let ctx = canvas.getContext('2d');
 			//			canvas.width = "300";
@@ -487,7 +513,7 @@ var MessageHandler = {
 			canvas.height = h;
 
 			canvas.classList.add("pic");
-			let img1 = document.querySelector(".orgimg");
+
 			if (img1.src == null) {
 				throw new Error("There is an error of picture");
 			}
