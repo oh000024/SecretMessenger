@@ -328,8 +328,11 @@ function onCallbackViewMessage(data) {
 		let viewMessageModal = document.getElementById("ViewMessageModal");
 		let messageListModal = document.getElementById("MessageListModal");
 
-		let canvas = document.createElement("canvas");
-		let img = document.getElementById("canvas4reciever");
+		let img = document.createElement("img");
+//		let img = document.getElementById("canvas4reciever");
+//		let canvas = document.getElementById("#canvas4reciever");
+		let canvas = document.querySelector("canvas#canvas4reciever");
+		//img.width="100%"
 		img.src = gURL + data.image;
 
 		let ctx = canvas.getContext('2d');
@@ -354,7 +357,7 @@ function onCallbackViewMessage(data) {
 			fname.value = glistofuser.has(id) ? glistofuser.get(id) : "Anonymous";
 			sname = fname.value;
 			let msg = BITS.getMessage(gUid, canvas);
-			img.width="100%";
+			//img.style.width="100%";
 
 			let text = document.getElementById("recievedmsg");
 			text.value = msg;
@@ -411,6 +414,7 @@ function onBackNavFS(ev) {
 
 function onBackNavFD(ev) {
 	ev.preventDefault();
+	
 }
 
 function onGoSendWId(ev) {

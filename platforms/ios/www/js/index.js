@@ -201,7 +201,7 @@ function onRegister(data) {
 	console.log("onRegister" + data);
 }
 
-function onCallbackListofName(data) {
+function onListofNameCallback(data) {
 	try {
 		console.log("callback " + METHODS[LISTUSERS].name);
 		let select = document.querySelector("select");
@@ -220,7 +220,7 @@ function onCallbackListofName(data) {
 	}
 }
 
-function onCallbackLogin(data) {
+function onLoginCallback(data) {
 	try {
 		console.log("callback   " + METHODS[LOGIN].name);
 		if (NO_ERROR == data.code) {
@@ -243,7 +243,7 @@ function onCallbackLogin(data) {
 
 			// Setting postman with uid uguid
 			myPostMan = new PrivatePostman(gUid, gGuid);
-			PublicpostMan.sender(req, onCallbackMessageList);
+			PublicpostMan.sender(req, onMessageListCallback);
 
 		} else {
 			throw new Error(data.message);
@@ -254,7 +254,7 @@ function onCallbackLogin(data) {
 	}
 }
 
-function onCallbackSend(data) {
+function onSendCallback(data) {
 	console.log("callback  " + METHODS[LOGIN].name);
 	let rid = document.querySelector("select").value;
 	document.getElementById("myTextarea").value = "";
@@ -264,7 +264,7 @@ function onCallbackSend(data) {
 
 }
 
-function onCallbackMessageList(data) {
+function onMessageListCallback(data) {
 
 	console.log("callback " + METHODS[LISTMESSAGES].name + " " + data);
 
@@ -300,7 +300,7 @@ function onCallbackMessageList(data) {
 					globalMsgId = aName.getAttribute("msg-id");
 					blackBox.message_id = globalMsgId;
 
-					let retdata = myPostMan.sender(GETMESSAGE, onCallbackViewMessage);
+					let retdata = myPostMan.sender(GETMESSAGE, onViewMessageCallback);
 
 				}
 			})(message, ul, li));
@@ -318,18 +318,22 @@ function onCallbackMessageList(data) {
 	let viewMessageModal = document.getElementById("ViewMessageModal");
 	viewMessageModal.classList.remove("active");
 	viewMessageModal.focus();
-	myPostMan.sender(LISTUSERS, onCallbackListofName);
+	myPostMan.sender(LISTUSERS, onListofNameCallback);
+	document.querySelector("a#gosend").focus();
 
 }
 
-function onCallbackViewMessage(data) {
+function onViewMessageCallback(data) {
 
 	try {
 		let viewMessageModal = document.getElementById("ViewMessageModal");
 		let messageListModal = document.getElementById("MessageListModal");
 
-		let canvas = document.createElement("canvas");
-		let img = document.getElementById("canvas4reciever");
+		let img = document.createElement("img");
+//		let img = document.getElementById("canvas4reciever");
+//		let canvas = document.getElementById("#canvas4reciever");
+		let canvas = document.querySelector("canvas#canvas4reciever");
+		//img.width="100%"
 		img.src = gURL + data.image;
 
 		let ctx = canvas.getContext('2d');
@@ -354,7 +358,7 @@ function onCallbackViewMessage(data) {
 			fname.value = glistofuser.has(id) ? glistofuser.get(id) : "Anonymous";
 			sname = fname.value;
 			let msg = BITS.getMessage(gUid, canvas);
-			img.width="100%";
+			//img.style.width="100%";
 
 			let text = document.getElementById("recievedmsg");
 			text.value = msg;
@@ -367,13 +371,13 @@ function onCallbackViewMessage(data) {
 
 }
 
-function onCallbackDelete(data) {
+function onDeleteCallback(data) {
 	//	PublicpostMan.sender(req, onCallbackMessageList);
 	let from = document.querySelector("#viewmessage div#msg4.content-padded");
 	app.generateMessage(from, from.firstElementChild, "info", data.message);
 
 	setTimeout(function () {
-		myPostMan.sender(LISTMESSAGES, onCallbackMessageList);
+		myPostMan.sender(LISTMESSAGES, onMessageListCallback);
 	}, 500);
 }
 
@@ -411,6 +415,7 @@ function onBackNavFS(ev) {
 
 function onBackNavFD(ev) {
 	ev.preventDefault();
+	
 }
 
 function onGoSendWId(ev) {
@@ -448,7 +453,7 @@ var MessageHandler = {
 				body: baseData.form
 			})
 
-			PublicpostMan.sender(req, onCallbackLogin);
+			PublicpostMan.sender(req, onLoginCallback);
 			console.log("return");
 
 		} catch (e) {
@@ -467,7 +472,7 @@ var MessageHandler = {
 				body: baseData.form
 			})
 
-			let retdata = PublicpostMan.sender(req, onCallbackLogin);
+			let retdata = PublicpostMan.sender(req, onLoginCallback);
 			console.log(retdata);
 		} catch (e) {
 			console.log(e.message);
@@ -479,10 +484,6 @@ var MessageHandler = {
 			let img1 = document.querySelector(".orgimg");
 			let canvas = document.createElement("canvas");
 			let ctx = canvas.getContext('2d');
-			//			canvas.width = "300";
-			//			canvas.height = "300";
-			//			canvas.style.width = "300px";
-			//			canvas.style.height = "300px";
 
 			var w = img1.width;
 			var h = img1.height;
@@ -513,7 +514,7 @@ var MessageHandler = {
 			blackBox.image = blob;
 			blackBox.recipient_id = rid;
 
-			myPostMan.sender(SENDMESSAGES, onCallbackSend);
+			myPostMan.sender(SENDMESSAGES, onSendCallback);
 		} catch (e) {
 			//console.log(e.message);
 			let from = document.querySelector("#sendmessage form");
@@ -528,7 +529,7 @@ var MessageHandler = {
 
 			let from = document.querySelector("#viewmessage form");
 
-			myPostMan.sender(DELETEMESSAGE, onCallbackDelete)
+			myPostMan.sender(DELETEMESSAGE, onDeleteCallback)
 
 		} catch (e) {
 			conole.log(e.mesasage);

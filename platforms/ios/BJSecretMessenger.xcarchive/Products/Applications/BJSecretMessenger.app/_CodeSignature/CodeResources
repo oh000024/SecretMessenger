@@ -66,7 +66,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		uvBu1Ydj5ajjF9Den8gjxR55CcI=
+		EcknvwS4kLygwGWC0LAUuu2lXUA=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		zmdtiL0iagakvqdidi9CvQ1NLPA=
+		zCvqdWS0O6i9Maf7SzYAJsyIDm0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		cgtjeH+IZ/899jDbqUKgCsyboe8=
+		7RvYwCO6Vi5WDj7bYEZIvIsUaHw=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -151,10 +151,6 @@
 		<key>embedded.mobileprovision</key>
 		<data>
 		VQoZNnYkyHWYAX5sfR+7v7UnwYk=
-		</data>
-		<key>www/____config.xml</key>
-		<data>
-		W5jMWQKl7Per24frge239OxvbDk=
 		</data>
 		<key>www/_res/icons/icon-50.png</key>
 		<data>
@@ -246,7 +242,7 @@
 		</data>
 		<key>www/css/main.css</key>
 		<data>
-		bQhpvBojVKR11tipcDui7XqN2ho=
+		id2TxJ12o9k4FygD8khYVqGPon4=
 		</data>
 		<key>www/css/ratchet-theme-android.min.css</key>
 		<data>
@@ -282,7 +278,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		4UpajZie+OhP9ZyMcyRiGShftqU=
+		XhOIq00N3IJV50S2lIGmyQch7Qs=
 		</data>
 		<key>www/js/User.js</key>
 		<data>
@@ -310,7 +306,7 @@
 		</data>
 		<key>www/js/index.js</key>
 		<data>
-		N+ajnZjHqJlTgf6/D8QzvtEx4Lw=
+		MJCgYD8lctitY8w1GRe1fKOXG68=
 		</data>
 		<key>www/js/ratchet.min.js</key>
 		<data>
@@ -512,11 +508,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uvBu1Ydj5ajjF9Den8gjxR55CcI=
+			EcknvwS4kLygwGWC0LAUuu2lXUA=
 			</data>
 			<key>hash2</key>
 			<data>
-			WdA6yCRpxuEdOi13dNqzJ1ouL/Y6UUFkziVy10yZ5n0=
+			GoMd+LwNy1YKZtgJpjJvbZjUElSfPQWPGeSMAYOREKU=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -534,11 +530,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zmdtiL0iagakvqdidi9CvQ1NLPA=
+			zCvqdWS0O6i9Maf7SzYAJsyIDm0=
 			</data>
 			<key>hash2</key>
 			<data>
-			bPgtU0uhclJ+21TUF2XVCXoQQQEAO5RKZJxTKCZlW2g=
+			NewBK1UT6UuVd4VCPVF/BJGwF12xLwEvvPPwERbCh90=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -688,11 +684,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cgtjeH+IZ/899jDbqUKgCsyboe8=
+			7RvYwCO6Vi5WDj7bYEZIvIsUaHw=
 			</data>
 			<key>hash2</key>
 			<data>
-			y7LMU3tlEhIWnxyPGvCF3Hss61Q03wel4sxuLgbogJM=
+			IKR5gKIV5BtNSCqud+clymFgVEGO+YvQXv9kpse874k=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -726,17 +722,6 @@
 			<key>hash2</key>
 			<data>
 			ZQLAItdEEaDbb/bm84eWVSmDAhtZVe2VT26ROZQVA08=
-			</data>
-		</dict>
-		<key>www/____config.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W5jMWQKl7Per24frge239OxvbDk=
-			</data>
-			<key>hash2</key>
-			<data>
-			lHnhKF2BIYvKagdp66pjIWZVTxM6K+UakWAgAfaaG6E=
 			</data>
 		</dict>
 		<key>www/_res/icons/icon-50.png</key>
@@ -985,11 +970,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bQhpvBojVKR11tipcDui7XqN2ho=
+			id2TxJ12o9k4FygD8khYVqGPon4=
 			</data>
 			<key>hash2</key>
 			<data>
-			rxpTLxLF4wTj5U17v4oNwl9VKrE9gAVzvvZM6y3R2Zw=
+			Z5H0WotrSWoy21goPSpuT19zftdCqiEgOhUgVvpuRAE=
 			</data>
 		</dict>
 		<key>www/css/ratchet-theme-android.min.css</key>
@@ -1084,11 +1069,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4UpajZie+OhP9ZyMcyRiGShftqU=
+			XhOIq00N3IJV50S2lIGmyQch7Qs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z9HLUgp+2TPc2Z6QB17dmWrSaZw5p5mVP1dwQ/TFQW8=
+			NYpcVsvxFmGimqldEjzxlMw6NYBDJ5zeKkAqwHTRuhg=
 			</data>
 		</dict>
 		<key>www/js/User.js</key>
@@ -1161,11 +1146,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N+ajnZjHqJlTgf6/D8QzvtEx4Lw=
+			MJCgYD8lctitY8w1GRe1fKOXG68=
 			</data>
 			<key>hash2</key>
 			<data>
-			2nAFlj3TRM2XGWL8jWLfkvT9FZ+N9oJ1cv3bwfxtEp0=
+			45pFb/wUwxG2rcSQF20gAT55r5p6/RcDgk5ETE3DoXw=
 			</data>
 		</dict>
 		<key>www/js/ratchet.min.js</key>

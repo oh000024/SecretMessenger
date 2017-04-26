@@ -82,4 +82,11 @@ canvas{
   border-color: #3399CC;
   opacity: 1;
 }
-
+img{
+	width:100%;
+	margin:0 auto;
+}
+canvas#canvas4reciever{
+	padding-top: 10px;
+	margin:0 auto;
+}
